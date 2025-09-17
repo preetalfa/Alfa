@@ -8,6 +8,7 @@ import CarrierHistory from "./components/CarrierHistory";
 import Last from "./components/Last";
 
 import { Logs } from "lucide-react";
+import Nav from "./components/Nav";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <div className="flex">
       <Sidebar />
       <main className="flex-1 bg-gray-100 p-6 space-y-6">
+        <Nav />
         <CandidateSample />
         <OfficeInfo />
         <Information />

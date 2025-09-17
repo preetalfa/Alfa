@@ -1,4 +1,5 @@
 import React from "react";
+import { ReceiptText } from 'lucide-react';
 // import { class } from './../../node_modules/@babel/parser/lib/index';
 import { Eye, File, SquarePen } from "lucide-react";
 const Information = () => {
@@ -8,15 +9,15 @@ const Information = () => {
         <h2 className="text-lg font-bold text-gray-800">Information</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4  border rounded-2xl overflow-hidden">
-        <div className="flex flex-col h-full border-r">
+      <div className="grid grid-cols-1 md:grid-cols-4  border border-gray-200 rounded-t-lg overflow-hidden">
+        <div className="flex flex-col h-full  border-r border-gray-200">
           <div className="bg-teal-800 text-white text-sm font-medium px-3 py-2 flex items-center h-10">
             Office
           </div>
           <div className="">
-            <div className="p-3 text-sm space-y-3 bg-gray-200    ">
+            <div className="p-3 text-sm space-y-3 bg-gray-200    mx-3 mt-6 rounded-2xl     ">
               <div className=" gap-29">
-                <p className="font-semibold border rounded-br-lg pl-3  text-white w-1/4 bg-blue-600">
+                <p className="font-semibold border rounded-br-lg pl-3 mb-1 text-white w-1/4 bg-blue-600">
                   Auto
                 </p>
              
@@ -35,7 +36,7 @@ const Information = () => {
                   admin@outlook.com
                 </p>
               </p>
-              <div className="flex gap-5">
+              <div className="flex gap-2">
                 <p className="font-thin text-xs">
                   DATE ISSUED{" "}
                   <span className="font-medium text-xs "> 3/12/2014</span>
@@ -46,7 +47,7 @@ const Information = () => {
                 </p>
               </div>
             </div>
-            <div className="p-3 text-sm space-y-3  bg-yellow-100  border-t border-slate-700    ">
+            <div className="p-3 text-sm space-y-3  mt-5  mx-3 bg-yellow-100 rounded-2xl  border-t border-slate-200    ">
               <div className=" gap-29">
                 <p className="font-semibold border rounded-br-lg  pl-2   text-white w-1/3 bg-yellow-500">
                   General
@@ -64,7 +65,7 @@ const Information = () => {
                   admin@outlook.com
                 </p>
               </p>
-              <div className="flex gap-5 pt-3">
+              <div className="flex gap-2 pt-3">
                 <p className="font-thin text-xs">
                   DATE ISSUED{" "}
                   <span className="font-medium text-xs "> 3/12/2014</span>
@@ -82,10 +83,10 @@ const Information = () => {
         <div>
 
         
-        <div className="border-r">
-          <div className="bg-teal-800 text-white text-sm  font-medium px-3 py-2 h-10"></div>
-          <div className="p-0  text-sm space-y-3">
-            <div className=" text-sm space-y-3 bg-sky-200    ">
+        <div className="border-r border-gray-200 ">
+          <div className="bg-teal-800 text-white text-sm  font-medium px-3  py-2 h-10"></div>
+          <div className="p-0  text-sm  mx-3 mt-6 rounded-2xl space-y-3">
+            <div className=" text-sm space-y-3 rounded-2xl bg-sky-200    ">
               <div className=" pt-3 pl-2 gap-29">
                 <p className="font-semibold border rounded-br-lg pl-2   text-white w-1/4 bg-sky-800">
                   Physical
@@ -121,7 +122,7 @@ const Information = () => {
             </div>
             {/* 444444444444 */}
             <div>
-            <div className="p-3 text-sm space-y-3c  bg-green-200  border-t border-slate-700   rounded-b-lg ">
+            <div className="p-3 text-sm space-y-3c  bg-green-200  border-t border-slate-200 mt-5 mb-3  mx-2 rounded-2xl   ">
             <div className=" gap-29">
                 <p className="font-semibold border rounded-br-lg pl-3  text-white w-1/4 bg-blue-600">
                   Cargo
@@ -141,7 +142,7 @@ const Information = () => {
                   admin@outlook.com
                 </p>
               </p>
-              <div className="flex gap-5 pt-6">
+              <div className="flex gap-2 pt-6">
                 <p className="font-thin text-xs">
                   DATE ISSUED{" "}
                   <span className="font-medium text-xs "> 3/12/2014</span>
@@ -157,7 +158,7 @@ const Information = () => {
         </div>
         {/* 55555555555 */}
         {/* Accounting---------------------------------------------------------------------------------------------/---------------- */}
-        <div className="border-r">
+        <div className="border-r border-gray-200">
           <div className="bg-teal-800 text-white text-sm font-medium px-3 py-2 h-10"></div>
 
           <div className="pt-5">
@@ -175,22 +176,23 @@ const Information = () => {
           <div className="bg-teal-800 text-white text-sm font-medium px-3 py-2 h-10">
             Document
           </div>
-          <div className="p-3 space-y-3">
+          <div className="p-3 flex space-y-3">
             <div>
               <p className="font-bold text-red-700 flex ">
                 Onboarding Packet{" "}
-                <span>
-                  {" "}
-                  <Eye className="p-1 ml-41 m-2 text-black " />
-                </span>{" "}
+                
               </p>
+              <span>
+                  {" "}
+                  <Eye className="p-1 ml-66 m-2 text-black " />
+                </span>{" "}
 
               <div>
                 <div className=" flex">
                   <File />
 
                   <div className="flex pt-4 pl-19  gap-2  ">
-                    <p className="font-thin gap-4 flex text-xs">
+                    <p className="font-thin  flex text-xs">
                       Setup{" "}
                       <span className="font-medium text-xs "> 3/12/2014</span>
                     </p>
@@ -201,13 +203,14 @@ const Information = () => {
                   </div>
                 </div>
               </div>
-              <p className="font-bold mt-8 text-green-700 flex ">
+              <p className="font-bold mt-8 border-t-gray-600 text-green-700 flex ">
                 Study Certificate{" "}
-                <span>
-                  {" "}
-                  <Eye className="p-1 ml-46 m-2  text-black " />
-                </span>{" "}
+               
               </p>
+               <span>
+                  {" "}
+                  <Eye className="p-1 ml-66 m-2  text-black " />
+                </span>{" "}
 
               <div className=" flex">
                 <File />
@@ -215,11 +218,12 @@ const Information = () => {
 
               <p className="font-bold mt-9 text-green-700 flex ">
                 Computer Certificate{" "}
-                <span>
-                  {" "}
-                  <Eye className="p-1 ml-40 m-2 text-black " />
-                </span>{" "}
+                
               </p>
+              <span>
+                  {" "}
+                  <Eye className="p-1 ml-66 m-2 text-black " />
+                </span>{" "}
 
               <div className=" flex">
                 <File />
@@ -235,9 +239,19 @@ const Information = () => {
                   </p>
                 </div>
               </div>
+              <div className="py-14">
+                 <ReceiptText />
+              </div>
             </div>
           </div>
         </div>
+        
+      </div>
+          <div className="flex items-center  justify-between px-4 py-2 bg-gray-100 rounded-b-lg ">
+        <h2 className="text-lg font-semibold"></h2>
+        <button className="text-yellow-600 pr-52 font-medium hover:underline">
+          + Add More
+        </button>
       </div>
     </div>
   );

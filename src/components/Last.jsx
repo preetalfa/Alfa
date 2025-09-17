@@ -4,15 +4,15 @@ import { Eye, File } from "lucide-react";
 const Last = () => {
   return (
     <div className="bg-white rounded-b-lg  shadow  p-2">
-      <div className="grid grid-cols-1 md:grid-cols-2 border  rounded-b-lg overflow-hidden">
-        <div className="flex flex-col h-full border-r">
+      <div className="grid grid-cols-1 md:grid-cols-2 border border-gray-300 rounded-b-lg overflow-hidden">
+        <div className="flex flex-col h-full border-r border-gray-200">
           <div className="bg-teal-800 text-white text-2xl  px-7 h-11 flex items-center font-bold">
             Logs
           </div>
         </div>
         {/* 3333333333333333333333 */}
         {/* Information */}
-        <div className="border-r">
+        <div className="border-r border-gray-200">
           <div className="bg-teal-800 text-2xl px-7 h-11 flex justify-between items-center font-bold text-white py-2">
             <div>Document</div>
             <span className="bg-green-700 text-white text-sm font-medium px-3 py-1 rounded-xl">
@@ -21,7 +21,7 @@ const Last = () => {
           </div>
         </div>
 
-        <div className="border-r">
+        <div className="border-r border-gray-200">
           <div className="p-3 m-3   space-y-4">
             <p className="text-lg font-bold ">Load Manifest: was generated</p>
             <div className="font-thin text-sm">

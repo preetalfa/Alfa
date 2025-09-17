@@ -55,7 +55,7 @@ const FleetTable = () => {
   ];
 
   return (
-    <div className="bg-white shadow border-collapse border border-gray-400 rounded-lg overflow-hidden">
+    <div className="bg-white shadow border-collapse border border-gray-300 rounded-lg overflow-hidden">
       <div className="flex items-center  justify-between px-4 py-2 border-b">
         <h2 className="text-lg font-semibold">Fleet Information</h2>
         <button className="text-yellow-600 font-medium hover:underline">
@@ -66,7 +66,7 @@ const FleetTable = () => {
       <div className="overflow-x-auto ">
         <table className="min-w-full text-md  border-collapse">
           <thead>
-            <tr className="bg-teal-800 divide-x divide-gray-300  text-white text-left">
+            <tr className="bg-teal-800 divide-x divide-gray-100 border-gray-200  text-white text-left">
               <th className="px-4  py-2">Unit Number</th>
               <th className="px-4 py-2">Vin Number</th>
               <th className="px-4 py-2">Make Model</th>
@@ -81,7 +81,7 @@ const FleetTable = () => {
             {data.map((row, idx) => (
               <tr
                 key={idx}
-                className={`border-b divide-x divide-gray-500 hover:bg-gray-50 ${
+                className={`border-b divide-x divide-gray-300 hover:bg-gray-50 ${
                   idx % 2 === 0 ? "bg-white" : "bg-gray-50"
                 }`}
               >

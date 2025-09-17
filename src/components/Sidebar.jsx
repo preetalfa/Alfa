@@ -33,7 +33,7 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <aside className="h-screen w-64 bg-slate-900 text-white flex flex-col">
+    <aside className="h-screen w-64 bg-zinc-900 text-white flex flex-col">
       {/* Logo / Header */}
       <div className="px-4 py-5 flex items-center gap-2 border-b border-slate-700">
         <div className="h-10 w-10 flex items-center justify-center bg-brand text-white font-bold rounded-md">

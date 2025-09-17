@@ -56,9 +56,9 @@ const CarrierHistory = () => {
 
   // status colors
   const statusColors = {
-    Pending: "bg-yellow-600 text-white",
+    Pending: "bg-yellow-600 px-5 text-white",
     "In-Transit": "bg-blue-600 text-white",
-    Cancelled: "bg-red-600 text-white",
+    Cancelled: "bg-red-600   text-white",
     Delivered: "bg-green-700 text-white",
   };
 
@@ -87,7 +87,7 @@ const CarrierHistory = () => {
           <thead>
             <tr className="bg-teal-800 text-white text-left divide-x divide-gray-300">
               <th className="px-4 py-2 flex align-">Load ID </th>
-              <th className="px-4 py-1">Status</th>
+              <th className="px-4  py-1">Status</th>
               <th className="px-4 py-2">Amount</th>
               <th className="px-4 py-2">Pick-up City</th>
               <th className="px-4 py-2">Date</th>
